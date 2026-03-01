@@ -1,0 +1,11 @@
+my_user_dict = {}
+
+while True:
+    SSN = input("Enter your SSN: ")
+    name = input("Enter your name: ")
+    my_user_dict[SSN] = name
+    choice = input("Do you want to continue? Y/N: ")
+    if choice == "Y":
+        break
+
+print(my_user_dict)
