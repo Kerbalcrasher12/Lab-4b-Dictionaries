@@ -1,0 +1,1 @@
+#In order to fix the problem with d_copy being changed leading to a problem with d_orig, you must use the .copy function which allows you to change d_copy without altering d_orig
