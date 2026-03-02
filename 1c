@@ -1,0 +1,13 @@
+a = [("a", 1), ("b", 2), ("c", 3)]
+res = {}
+for key, value in a:
+    if isinstance(key, (str, int, float, tuple)):
+        print(f"Invalid key format: {key}")
+        continue
+    if key in res:
+        print(f"Duplicate key {key} found with value {value}")
+        print(f"Change key {key} for different pair")
+        continue
+    res[key] = value
+
+print("Final Dictionary:", res)
