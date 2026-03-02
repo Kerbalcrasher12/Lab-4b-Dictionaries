@@ -1,0 +1,7 @@
+d_orig = {123:"Coconut"}
+d_copy = d_orig.copy()
+
+d_copy[123] = "Mango"
+
+print(d_orig)
+print(d_copy)
