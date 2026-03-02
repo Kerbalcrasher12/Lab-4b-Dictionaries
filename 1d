@@ -1,0 +1,7 @@
+tuple = [('Name', 'Sarah Connor'),('Date of birth', '1 Jan 1980'),('Address', '1000 Black Mountain Drive 92126'),('Name', 'Jim Hawkins')]
+people_dict = {}
+
+for key, value in tuple:
+    people_dict[key] = value
+
+print(people_dict)
